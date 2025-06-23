@@ -1,0 +1,45 @@
+📦 Package de rendu
+🎯 Ce que vous pouvez livrer maintenant
+1. Repository GitHub ✅
+
+https://github.com/Victory1502/jenkins
+Code source Next.js
+Dockerfiles
+Jenkinsfile fonctionnel
+
+2. Vidéo de démonstration 🎬
+
+5-10 minutes
+Démonstration du pipeline fonctionnel
+Explication de l'architecture
+
+3. Documentation 📝
+
+README explicatif
+Architecture du projet
+Instructions de reproduction
+
+📋 README suggéré
+markdown# Pipeline CI/CD Jenkins - Next.js
+
+## 🎯 Objectif
+Automatisation du déploiement d'une application Next.js avec Jenkins
+
+## 🏗️ Architecture
+GitHub → Jenkins → Build → Tests → Docker
+
+## ✅ Fonctionnalités réalisées
+- Détection automatique des commits
+- Build automatique
+- Tests et lint
+- Construction Docker
+- Pipeline versionné (Jenkinsfile)
+
+## 🚀 Démonstration
+[Lien vers vidéo]
+
+## 🔧 Reproduction
+1. Cloner le repository
+2. Configurer Jenkins avec Docker
+3. Importer le pipeline
+4. Tester avec un push
