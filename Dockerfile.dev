@@ -1,0 +1,22 @@
+FROM node:18-alpine
+
+# Créer utilisateur non-root pour sécurité
+RUN addgroup --system --gid 1001 nodejs && adduser --system --uid 1001 nextjs
+
+WORKDIR /app
+
+# Copier package.json et installer dépendances
+COPY package*.json ./
+RUN npm ci
+
+# Copier le code source
+COPY . .
+
+# Donner permissions au user nextjs
+RUN chown -R nextjs:nodejs /app
+
+USER nextjs
+
+EXPOSE 3000
+
+CMD ["npm", "run", "dev"]
