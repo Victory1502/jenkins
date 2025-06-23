@@ -14,7 +14,6 @@ GitHub → Jenkins → Build → Tests → Docker
 - Pipeline versionné (Jenkinsfile)
 
 ## 🚀 Démonstration
-[Lien vers vidéo]
 
 ## 🔧 Reproduction
 1. Cloner le repository
